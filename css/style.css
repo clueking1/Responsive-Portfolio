@@ -1,5 +1,37 @@
+h1 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #4aaaa5;
+  
+}
+
+h2 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #4aaaa5;
+}
+
+p {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header ul li a {
+  color: #cccccc;
+  border-right: 2px solid #cccccc;
+  margin-top: 10px;
+}
+
+header {
+  border-bottom: 5px groove;
+
+}
+
+.para1 {
+  margin-left: 500px;
+}
+
 .thumbnail {
   position: relative;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .caption {
@@ -9,24 +41,27 @@
   width: 100%;
 }
 
-
-
-
-
-
-
-
 .footer {
-    position: absolute;
-    bottom: 0;
+    
+    
     width: 100%;
-    height: 60px; 
+    height: 50px; 
     line-height: 60px;
     text-align: center; 
     background-color: #666666;
+    position: fixed;
+    bottom: 0;
+    border-top: 10px solid #4aaaa5 ;
+    clear: both;
     
   }
   
-  footer p {
+  .footer span {
     color: white;
+  }
+
+  @media only screen and (max-width: 676px) {
+   .footer {
+     position: static;
+   }
   }
