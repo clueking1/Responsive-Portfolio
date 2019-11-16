@@ -24,9 +24,7 @@ header {
 
 }
 
-.para1 {
-  margin-left: 500px;
-}
+
 
 .thumbnail {
   position: relative;
@@ -72,6 +70,9 @@ header {
     
   }
 
+  .para1 {
+    margin-left: auto;
+  }
   
   .footer span {
     color: white;
